@@ -10,7 +10,6 @@ public class FileClock implements Runnable {
         for (int i = 0; i < 100000000; i++) {
             System.out.printf("%s\n", new Date());
         }
-
     }
 
 }
